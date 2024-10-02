@@ -1,4 +1,5 @@
 ## Pricing Data Analysis
+
 This project involves the analysis and cleaning of a pricing dataset, which was explored and modeled in a series of Jupyter notebooks. The primary objectives include understanding the data, cleaning it for inconsistencies, exploring relationships between variables, and building predictive models.
 
 Table of Contents
@@ -25,6 +26,7 @@ Exploratory Data Analysis (EDA)
 The EDA, documented in 02_eda.ipynb, provided insights into the data through visualizations and summary statistics:
 
 Summary Statistics: Generated descriptive statistics to understand the distribution and central tendencies of key features.
+
 Visualizations:
 Histograms and Box Plots were used to visualize the distribution of numeric variables.
 Correlation Heatmaps were employed to explore relationships between different numeric features.
@@ -35,9 +37,11 @@ Certain categories, such as electronics, tend to have higher average prices.
 Modeling
 The modeling process, outlined in 03_modeling.ipynb, included:
 
-Model Selection: Implemented various models, including Random Forest and Logistic Regression, to predict prices or classify products.
+Model Selection: 
+Implemented various models, including Random Forest and Logistic Regression, to predict prices or classify products.
 Hyperparameter Tuning: Used RandomizedSearchCV to find the best hyperparameters for the models.
 Model Evaluation: Evaluated models based on metrics like Mean Squared Error (MSE) and R-squared for regression tasks, and confusion matrices for classification tasks.
+
 Installation
 To run the notebooks and replicate the analysis, follow these steps:
 
